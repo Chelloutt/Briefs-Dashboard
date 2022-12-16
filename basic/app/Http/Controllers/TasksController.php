@@ -12,4 +12,9 @@ class TasksController extends Controller
         $index->save();
         return response()->json($index);
     }
+
+        public function select(){
+        $index = tasks::all();
+        return response()->json($index);
+    }
 }

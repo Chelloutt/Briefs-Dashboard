@@ -1,0 +1,4 @@
+root: C:\Users\Mohamed\Documents\GitHub\Briefs-Dashboard\standard 
+path: C:\Program Files\nodejs 
+arch: 64 
+proxy: none

@@ -21,3 +21,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('index',[TasksController::class,'store']); 
+Route::get('index',[TasksController::class,'select']);
+
