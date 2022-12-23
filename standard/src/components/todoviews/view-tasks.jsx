@@ -3,7 +3,7 @@ import {useState,useEffect} from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
 
-function view() {
+function Indextodos() {
   const [todos, setTodos] = useState([]);
   useEffect(() => {
     async function echoData() {
@@ -34,10 +34,10 @@ function view() {
           </tbody>
         </table>
         <br />
-        <Link to="/Addtodos">add a task</Link> 
+        <Link to="/Addtodos">add a task</Link>
       </div>
     </div>
   );
 }
 
-export default view;
+export default Indextodos;
